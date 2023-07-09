@@ -2,3 +2,5 @@ data_actual.py
 data_all.py
 data_e.py
 *ipynb_checkpoints
+*.parquet
+*.csv
