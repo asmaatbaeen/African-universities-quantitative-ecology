@@ -1,5 +1,7 @@
 *ipynb_checkpoints
 *.parquet
+data_Nominatim.parquet
+data_universities.parquet
 *.csv
 config.ini
 *.pyc
