@@ -1,6 +1,7 @@
-data_actual.py
-data_all.py
-data_e.py
 *ipynb_checkpoints
 *.parquet
 *.csv
+config.ini
+*.pyc
+afr_g2014_2013_0
+.DS_Store
