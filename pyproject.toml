@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "african-universities-quantitative-ecology"
+version = "0.1.0"
+description = ""
+authors = ["Asmaa Tbaeen"]
+readme = "README.md"
+packages = [{include = "african_universities_quantitative_ecology"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+universities = "^1.1.0"
+geopy = "^2.3.0"
+geopandas = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
