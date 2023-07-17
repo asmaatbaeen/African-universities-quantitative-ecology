@@ -43,7 +43,10 @@ def map_plot(africa_shapefile, program_df, title, fig_size=(10, 10)):
     program_gdf.plot(ax=ax, color="red", markersize=50)
 
     # Set plot title and labels
-    ax.set_title(title)
+
+    # Set plot title and labels
+    ax.set_title(title, fontsize=18, fontweight="bold")
+    # ax.set_title(title)
     ax.set_xlabel("Longitude")
     ax.set_ylabel("Latitude")
 
