@@ -19,7 +19,7 @@ $ poetry install  # Install dependencies
 The `scripts` directory contains a script that is used to make the plots in the notebook based on the presented data.
 
 ## Notebooks:
-The notebooks in this repository serve the following purposes:
+The `notebook` folder contain the following:
 
 1. **all_african_universities**: This notebook aims to compile a list of universities in Africa, including relevant details such as names, locations, and additional information. Please note that this list may not be exhaustive, as it is based on available data sources.
 
