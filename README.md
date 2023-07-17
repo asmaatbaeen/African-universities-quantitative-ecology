@@ -29,6 +29,6 @@ The `notebook` folder contain the following:
 
 
 ## Results and Analysis:
-By analyzing the collected data and comparing the environmental and quantitative ecology programs, we can derive valuable insights into the current state of education and research in these fields across Africa. The results obtained from these notebooks may highlight strengths, challenges, and potential areas for improvement or collaboration.
+The notebook contains the results of the analysis, including any generated graphs. There is an option to save these results for further use or reference.
 
-Please refer to the respective notebooks for detailed information and analysis of the collected data.
+Please refer to the notebook and the provided scripts for more detailed information on running the code and exploring the results.
