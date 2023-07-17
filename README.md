@@ -1,20 +1,34 @@
 # African Universities and Quantitative Ecology Programs
 
-This repository hosts notebooks focused on obtaining a comprehensive list of universities in Africa and analyzing the current state of environmental and quantitative ecology programs on the continent.
+This repository contains notebooks focused on obtaining a comprehensive list of universities in Africa and analyzing the current state of environmental and quantitative ecology programs on the continent.
 
 ## Objective:
-The primary goal of this project is to compare and evaluate the current situation of quantitative ecology programs in Africa. By collecting data on universities and their environmental and quantitative ecology programs, we aim to gain insights into the state of education and research in these fields across Africa.
+The primary objective of this project is to compare and evaluate the current situation of quantitative ecology programs in Africa. By collecting data on universities and their environmental and quantitative ecology programs.
+
+
+## Getting Started:
+To manage the project dependencies, Poetry is used. If you haven't installed Poetry yet, please install it first. Then, follow these steps to set up the project and install the necessary dependencies:
+
+```
+$ poetry shell    # Activate the virtual environment
+$ poetry install  # Install dependencies
+```
+
+
+## Scripts:
+The `scripts` directory contains a script that is used to make the plots in the notebook based on the presented data.
 
 ## Notebooks:
 The notebooks in this repository serve the following purposes:
 
-1. **University List Notebook**: This notebook aims to compile a comprehensive list of universities in Africa, including pertinent details such as their names, locations, and additional relevant information.
+1. **all_african_universities**: This notebook aims to compile a list of universities in Africa, including relevant details such as names, locations, and additional information. Please note that this list may not be exhaustive, as it is based on available data sources.
 
-2. **Environmental Ecology Programs Notebook**: This notebook focuses on exploring environmental ecology programs offered by African universities. It aims to gather information about these programs, analyze their characteristics, and identify any notable trends or patterns.
+2. **environmental_ecology_programs**: This notebook focuses on exploring environmental ecology programs offered by African universities. The data presented in this notebook is gathered through Google searches using these specific keywords: top 20 environmental ecology programs in Africa and the top 20 ecology programs in Africa.
 
-3. **Quantitative Statistical Ecology Programs Notebook**: This notebook is specifically dedicated to quantitative statistical ecology programs in Africa. It seeks to gather data on these programs, assess their curricula, and examine their relevance and scope.
+3. **quantitative_statistical_ecology_programs**: This notebook is specifically dedicated to quantitative statistical ecology programs in Africa. The data presented in this notebook is obtained through Google searches using these specific keywords: top 20 quantitative statistical ecology programs in Africa and the top 20 statistical ecology programs in Africa.
+
 
 ## Results and Analysis:
-By analyzing the gathered data and comparing the environmental and quantitative ecology programs, we can obtain valuable insights into the current state of education and research in these fields across Africa. The results may reveal strengths, challenges, and potential areas for improvement or collaboration.
+By analyzing the collected data and comparing the environmental and quantitative ecology programs, we can derive valuable insights into the current state of education and research in these fields across Africa. The results obtained from these notebooks may highlight strengths, challenges, and potential areas for improvement or collaboration.
 
-For detailed information and in-depth analysis of the collected data, please refer to the respective notebooks in this repository.
+Please refer to the respective notebooks for detailed information and analysis of the collected data.
