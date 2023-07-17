@@ -14,6 +14,12 @@ $ poetry shell    # Activate the virtual environment
 $ poetry install  # Install dependencies
 ```
 
+# Dataset Used:
+using data from two different sources:
+
+    1. local parquet file: This file contains university information, including name, country, longitude, and latitude. The data was scraped from Google.
+    
+    2. [universities library](https://pypi.org/project/universities/): This library provides access to a vast collection of global universities information. 
 
 ## Scripts:
 The `scripts` directory contains a script that is used to make the plots in the notebook based on the presented data.
